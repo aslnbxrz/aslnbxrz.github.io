@@ -1,0 +1,506 @@
+@import 'fonts.css';
+
+
+:root{
+    --m-l:'montserrat-light';
+    --r-b:'raleway-bold';
+    --r-e-b:'raleway-extrabold';
+    --r-m:'raleway-medium';
+    --r-r:'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+ 
+
+
+body{
+    min-width: 320px;
+    font-family: var(--m-l);
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+
+header{
+    background: url(../img/fon-one.jpg) center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+header .menu-top{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+header .menu-top .navbar-light .navbar-nav .nav-link {
+    color: #191919;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header .menu-top .navbar-light .navbar-nav .nav-link:hover{
+    color: #007d2f;
+}
+
+header .header-text h1{
+    font-size: 35px;
+    color: #1d1d1d;
+}
+
+header .header-text{
+    margin-top: 45%;
+}
+
+header .header-text p{
+    font-size: 15px;
+    color: #787878;
+    margin: 30px 0 53px 0;
+}
+
+
+header .header-text .btn{
+    padding: 22px 57px;
+    background:#007d2f;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+header .header-text .btn:hover{
+    box-shadow: 0 15px 20px #8c8c8c;
+    background: #025321;
+}
+
+/* about start */
+
+.about{
+    padding: 97px 0 34px 0;
+}
+
+.about h2{
+    font-size: 34px;
+    color: #191919;
+}
+
+
+.about p{
+    font-size: 13px;
+    color: #787878;
+    margin: 35px 0 54px 0;
+}
+
+.about img{
+    width: 50%;
+}
+
+
+
+/* skills start*/
+.skills{
+    background: #f8f9f9;
+}
+
+.skills .skills-text{
+    padding: 166px 55px 0 130px;
+}
+
+.skills .skills-row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.skills .skills-col{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.skills img{
+    width: 100%;
+}
+
+.skills .skills-text h3{
+    font-size: 30px;
+    color: #171717;
+}
+
+.skills .skills-text p{
+    font-size: 12px;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.skills .skills-text .design::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #007d2f 75%, #d8d8d8 25%);
+    margin-top: 20px;
+}
+
+.skills .skills-text .web::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #007d2f 90%, #d8d8d8 10%);
+    margin-top: 20px;
+}
+
+.skills .skills-text .marketing::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #007d2f 65%, #d8d8d8 35%);
+    margin-top: 20px;
+}
+
+
+
+/* block-icon start */
+
+.block-icon{
+    background: #007d2f;
+    padding-bottom: 80px;
+}
+
+.block-icon .icon i{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.block-icon .icon{
+    margin-top: 76px;
+}
+
+.block-icon .icon h5{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.block-icon .icon p{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/* block-foto start */
+
+.block-foto img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.block-foto .block-foto-row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.block-foto .block-foto-col{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.block-foto .block-image{
+    background: #252525;
+    position: relative;
+}
+
+
+.block-foto .block-image .image-icon{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+    transition: 0.5s;
+}
+
+.block-foto .block-image:hover img{
+    opacity: 0.3;
+}
+
+.block-foto .block-image:hover .image-icon{
+    display: block;
+}
+
+.block-foto .load{
+    background: #007d2f;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.block-foto .load h5{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+/* video start */
+
+.video{
+    padding: 100px 0;
+}
+
+.video h5{
+    font-style: 43px;
+    color: #191919;
+}
+.video p{
+    font-size: 22px;
+    color: #787878;
+    margin: 28px 0 48px 0;
+}
+.video img{
+    width: 100%;
+
+}
+
+/* block-box start */
+
+.block-box{
+    background: #f5f5f5;
+    padding-bottom: 100px;
+}
+
+.block-box .box-icon{
+    margin-top: 100px;
+}
+
+.block-box .box-icon i{
+    font-size: 45px;
+    margin-bottom: 30px;
+
+}
+
+/* slider start */
+
+.slider{
+    background: #007d2f;
+    padding: 50px 0;
+}
+
+.slider .carousel-item{
+    height: 400px;
+    
+}
+
+.slider .carousel-caption {
+    bottom: 30%;
+}
+
+.slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.slider .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.slider .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+/* block-brend start */
+
+.block-brend{
+    padding-bottom: 70px;
+}
+
+.block-brend img{
+    width: 50%;
+    margin-top: 70px;
+}
+
+/* form need-projects start */
+
+
+.need-projects{
+    background: #f5f5f5;
+    color: #1d1d1d;
+    padding: 27px 0 100px;
+}
+
+.need-projects h5{
+    font-size: 30px;
+    color: #1d1d1d;  
+}
+
+.need-projects p{
+    font-size: 16px;
+    color: #787878;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.need-projects input{
+    width: 100%;
+    border: 0;
+    padding: 18px 15px;
+    font-size: 15px;
+    color: #787878;
+}
+
+.need-projects textarea{
+    width: 100%;
+    border: 0;
+    padding: 18px 15px;
+    font-size: 15px;
+    color: #787878;
+
+}
+
+.need-projects button{
+    background: #007d2f;
+    color: #fff;
+    font-size:12px;
+    text-transform: uppercase;
+    padding: 23px 35px;
+    border:0;
+    transition: 0.5s;
+}
+
+.need-projects button:hover{
+    background: #00af43;
+    box-shadow: 0 15px 15px #787878;
+}
+
+/* footer start */
+
+footer{
+    background: #141414;
+    padding: 100px 0;
+    list-style: none;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer ul li a{
+    color: #bcbcbc;
+}
+
+footer a{
+    color: #bcbcbc;
+
+}
+
+footer a:hover{
+    color: #dddddd;
+}
+
+
+
+
+
+@media (max-width:1156px){
+    .skills .skills-text{
+        padding: 83px 55px 0 92px;
+        
+    } 
+}
+
+@media (max-width:991px){
+    .skills .skills-text p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:810px){
+    .skills .skills-text h3 {
+        font-size: 22px;
+    }
+    
+    .skills .skills-text {
+        padding: 63px 55px 0 60px;
+    }
+    
+    .skills .skills-text .design::after{
+        margin-top: 10px;
+    }
+    
+    .skills .skills-text .web::after{
+        margin-top: 10px;
+    }
+    
+    .skills .skills-text .marketing::after{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:767px){
+    .skills .skills-text {
+        padding: 100px 55px 100px 60px;
+    }
+    
+    header .header-text h1 {
+        font-size: 19px;
+    }
+    
+    header .header-text p {
+        font-size: 12px;
+        margin: 17px 0 28px 0;
+    }
+    
+    header .header-text .btn {
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    
+    header .header-text {
+        margin-top: 80%;
+    }
+}
+
+@media (max-width:575px){
+    
+footer ul {
+    margin-top: 20px;
+}
+}
+
+@media (max-width:360px){
+    
+footer ul {
+    margin-left: -20px;
+}
+}
+
+@media (max-width:320px){
+    
+.need-projects button{
+    margin-left: -20px;
+}
+
+
+}
+
+@media (max-width:400px){
+    
+.need-projects button{
+    margin-left: -20px;
+}
+    
+footer ul {
+    margin-left: -20px;
+}
+
+}
